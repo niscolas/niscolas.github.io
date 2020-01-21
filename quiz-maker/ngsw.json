@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1579632857494,
+  "timestamp": 1579649733083,
   "index": "/quiz-maker/index.html",
   "assetGroups": [
     {
@@ -224,15 +224,15 @@
         "/quiz-maker/98-es5.a61de5f2202686db576b.js",
         "/quiz-maker/99-es2015.c00316f6ba3648616e06.js",
         "/quiz-maker/99-es5.c00316f6ba3648616e06.js",
-        "/quiz-maker/common-es2015.86a6f10285158d629472.js",
-        "/quiz-maker/common-es5.86a6f10285158d629472.js",
+        "/quiz-maker/common-es2015.5dc98d724a819461eb09.js",
+        "/quiz-maker/common-es5.5dc98d724a819461eb09.js",
         "/quiz-maker/index.html",
         "/quiz-maker/main-es2015.a57e5617d52cc74b814c.js",
         "/quiz-maker/main-es5.a57e5617d52cc74b814c.js",
         "/quiz-maker/polyfills-es2015.eecc33cb42586ec02aa2.js",
         "/quiz-maker/polyfills-es5.97b960f8b6687c760be2.js",
-        "/quiz-maker/runtime-es2015.b078e8ae65a5c9dc8366.js",
-        "/quiz-maker/runtime-es5.b078e8ae65a5c9dc8366.js",
+        "/quiz-maker/runtime-es2015.6ceecd84b5dcadb72a62.js",
+        "/quiz-maker/runtime-es5.6ceecd84b5dcadb72a62.js",
         "/quiz-maker/styles.f8898b8995b2bf1e1223.css"
       ],
       "patterns": []
@@ -474,7 +474,7 @@
     "/quiz-maker/98-es5.a61de5f2202686db576b.js": "f3e4bf6b4de64a9faf965c40010c348b09a45bd4",
     "/quiz-maker/99-es2015.c00316f6ba3648616e06.js": "8856d919ef564367e0b10657cbbc972ed22652eb",
     "/quiz-maker/99-es5.c00316f6ba3648616e06.js": "fd43ae2f0bf2705f585c6ff636de21e45f181295",
-    "/quiz-maker/assets/icon/favicon.png": "7798b8e0eb61d7375c245af78bbf5c916932bf13",
+    "/quiz-maker/assets/icon/favicon.png": "1fec2e443cd27017f34915244d3e19b1cd966d54",
     "/quiz-maker/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
     "/quiz-maker/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
     "/quiz-maker/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
@@ -484,15 +484,15 @@
     "/quiz-maker/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
     "/quiz-maker/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
     "/quiz-maker/assets/shapes.svg": "5413e95adabcb2cb639970051f55e0ddb64ace53",
-    "/quiz-maker/common-es2015.86a6f10285158d629472.js": "c4ec4f896db9f1c677daa65f09d7383f55ee8350",
-    "/quiz-maker/common-es5.86a6f10285158d629472.js": "8b8018b4b66cb71f060469fef04404a62072e839",
-    "/quiz-maker/index.html": "ff18c8586d39f35b186860ee26e84d59c2d1bbcc",
+    "/quiz-maker/common-es2015.5dc98d724a819461eb09.js": "46e0f54f698bc1f243320f40c821dfeaf9baeb5b",
+    "/quiz-maker/common-es5.5dc98d724a819461eb09.js": "d19a9cb20a8785bd19d8e696c191867bd9d4c302",
+    "/quiz-maker/index.html": "fa24f84c1c82f0262643eaf35175d8f4d849edec",
     "/quiz-maker/main-es2015.a57e5617d52cc74b814c.js": "4ec3ba4e3aa2bb0ecd59eac1cf57cca805805177",
     "/quiz-maker/main-es5.a57e5617d52cc74b814c.js": "3fd0e2ce717f7b58406343b1abf03ff544f60741",
     "/quiz-maker/polyfills-es2015.eecc33cb42586ec02aa2.js": "ccce3d47d6c09a7565b6bf9a182113fc520891c7",
     "/quiz-maker/polyfills-es5.97b960f8b6687c760be2.js": "6f14fc7990dee99b77d7ac2a6587b7a10127c93c",
-    "/quiz-maker/runtime-es2015.b078e8ae65a5c9dc8366.js": "dfbc669dd573143d26661967ae96ffa64a5ce926",
-    "/quiz-maker/runtime-es5.b078e8ae65a5c9dc8366.js": "08d7da7bf4a456601b7ab70d143483e99dd924e0",
+    "/quiz-maker/runtime-es2015.6ceecd84b5dcadb72a62.js": "95ff88c3c95db92eb048c23ad18588238500b1b7",
+    "/quiz-maker/runtime-es5.6ceecd84b5dcadb72a62.js": "0660bd09e0077f4c557d62374bd0830fb4d8e62c",
     "/quiz-maker/styles.f8898b8995b2bf1e1223.css": "a596a3bdab37f45c29539427943061140f21bf2e"
   },
   "navigationUrls": [
