@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<html lang="en">
 
 <head>
   <meta charset="UTF-8">
@@ -7,21 +6,27 @@
 
   <title>niscolas</title>
 
+  <link rel="icon" href="favicon.png" />
+
+  <!-- fonts -->
   <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+
+  <!-- materialize -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
   <style>
+    * {
+      box-sizing: border-box;
+    }
+
     html {
-      height: 100%;
-      text-align: center;
-      width: 100%;
+      background: black;
     }
 
     body {
-      background: rgb(17, 0, 36);
-      background: linear-gradient(162deg, rgba(17, 0, 36, 1) 0%, rgba(20, 1, 41, 1) 0%, rgba(141, 82, 189, 1) 0%, rgba(9, 115, 121, 1) 35%, rgba(0, 206, 255, 1) 100%);
-      padding: 10%;
-      position: relative;
+      min-height: 100vh;
+      overflow: hidden;
     }
 
     button,
@@ -30,19 +35,46 @@
       font-family: 'Poppins', sans-serif;
     }
 
-    p {
-      font-size: 4em;
+    button {
+      font-weight: bold;
+    }
+
+    ul li {
+      margin: 10px;
+    }
+
+    div.big-n {
+      background: url('assets/bg-2.gif') center no-repeat;
+      background-size: contain;
+      height: 90vh;
+      margin: 5vh;
+      width: 90vh;
+    }
+
+    .content-links {
+      margin-top: 80vh;
+      position: absolute;
+    }
+
+    .flex-box {
+      display: flex;
+      justify-content: center;
     }
   </style>
 </head>
 
-<body>
-  <p>niscolas.io</p>
-  <form action="./quiz-maker">
-    <button class="btn waves-effect waves-light" type="submit">
-      Minas Educa - Quiz Maker
-    </button>
-  </form>
+<body class="flex-box">
+  <div class="big-n"></div>
+  <ul class="content-links">
+    <li>
+      <a href="./quiz-maker">
+        <button class="btn waves-effect waves-light" type="submit">
+          Minas Educa - Quiz Maker
+          <i class="material-icons right">send</i>
+        </button>
+      </a>
+    </li>
+  </ul>
 </body>
 
 </html>
