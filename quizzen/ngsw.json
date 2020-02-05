@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1580783680131,
+  "timestamp": 1580861561064,
   "index": "/quizzen/index.html",
   "assetGroups": [
     {
@@ -227,8 +227,8 @@
         "/quizzen/common-es2015.1c0b99dc59fab1de8d7e.js",
         "/quizzen/common-es5.1c0b99dc59fab1de8d7e.js",
         "/quizzen/index.html",
-        "/quizzen/main-es2015.d5bb48258f1c745e0d71.js",
-        "/quizzen/main-es5.d5bb48258f1c745e0d71.js",
+        "/quizzen/main-es2015.34e3eca00622673552ff.js",
+        "/quizzen/main-es5.34e3eca00622673552ff.js",
         "/quizzen/polyfills-es2015.eecc33cb42586ec02aa2.js",
         "/quizzen/polyfills-es5.97b960f8b6687c760be2.js",
         "/quizzen/runtime-es2015.e5c0fdf96ca3cd4a4159.js",
@@ -486,9 +486,9 @@
     "/quizzen/assets/shapes.svg": "5413e95adabcb2cb639970051f55e0ddb64ace53",
     "/quizzen/common-es2015.1c0b99dc59fab1de8d7e.js": "8812e22485b1b7ce263ba6c9849ab9259d41e452",
     "/quizzen/common-es5.1c0b99dc59fab1de8d7e.js": "64e0aa9f2d7391ad1c1443551c120db511456c51",
-    "/quizzen/index.html": "af7d9d56561deaf3301ff47a2c8cda2e611183b1",
-    "/quizzen/main-es2015.d5bb48258f1c745e0d71.js": "8a1adac089bac1a6d67d7aa9c1b0a83e888dc8b6",
-    "/quizzen/main-es5.d5bb48258f1c745e0d71.js": "ce7c286b4b1e633effed62ed314af716da4e6f4d",
+    "/quizzen/index.html": "ae5da3e5389decd7e412907f3ab4e561279667ff",
+    "/quizzen/main-es2015.34e3eca00622673552ff.js": "a1845c0d36f89c266129d7b3b637bfa4315d668f",
+    "/quizzen/main-es5.34e3eca00622673552ff.js": "69798974c61057c04e9eaa62bc78a08ad28d59c7",
     "/quizzen/polyfills-es2015.eecc33cb42586ec02aa2.js": "ccce3d47d6c09a7565b6bf9a182113fc520891c7",
     "/quizzen/polyfills-es5.97b960f8b6687c760be2.js": "6f14fc7990dee99b77d7ac2a6587b7a10127c93c",
     "/quizzen/runtime-es2015.e5c0fdf96ca3cd4a4159.js": "9ffdf0f0f2823ce0794c40b197c200808f2f2e7c",
