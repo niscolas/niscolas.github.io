@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1582924842823,
+  "timestamp": 1583175482373,
   "index": "/minas-educa/quizzen/index.html",
   "assetGroups": [
     {
@@ -36,8 +36,8 @@
         "/minas-educa/quizzen/112-es5.07cb39059d001b2cafc8.js",
         "/minas-educa/quizzen/113-es2015.04c5674db7b3e7ccade5.js",
         "/minas-educa/quizzen/113-es5.04c5674db7b3e7ccade5.js",
-        "/minas-educa/quizzen/14-es2015.e79a1e64153735d978d1.js",
-        "/minas-educa/quizzen/14-es5.e79a1e64153735d978d1.js",
+        "/minas-educa/quizzen/14-es2015.f754020f051e4811aa00.js",
+        "/minas-educa/quizzen/14-es5.f754020f051e4811aa00.js",
         "/minas-educa/quizzen/15-es2015.37e8fb7802a918949569.js",
         "/minas-educa/quizzen/15-es5.37e8fb7802a918949569.js",
         "/minas-educa/quizzen/16-es2015.b374789c815aa37c583e.js",
@@ -231,8 +231,8 @@
         "/minas-educa/quizzen/main-es5.062763bae8bd5d00361d.js",
         "/minas-educa/quizzen/polyfills-es2015.eecc33cb42586ec02aa2.js",
         "/minas-educa/quizzen/polyfills-es5.97b960f8b6687c760be2.js",
-        "/minas-educa/quizzen/runtime-es2015.0605982649969add2e0f.js",
-        "/minas-educa/quizzen/runtime-es5.0605982649969add2e0f.js",
+        "/minas-educa/quizzen/runtime-es2015.66cf492f01add8aa46be.js",
+        "/minas-educa/quizzen/runtime-es5.66cf492f01add8aa46be.js",
         "/minas-educa/quizzen/styles.9a7d8a84e433dee4b72c.css"
       ],
       "patterns": []
@@ -242,6 +242,7 @@
       "installMode": "lazy",
       "updateMode": "prefetch",
       "urls": [
+        "/minas-educa/quizzen/assets/icon/favicon.ico",
         "/minas-educa/quizzen/assets/icon/favicon.png",
         "/minas-educa/quizzen/assets/icons/icon-128x128.png",
         "/minas-educa/quizzen/assets/icons/icon-144x144.png",
@@ -286,8 +287,8 @@
     "/minas-educa/quizzen/112-es5.07cb39059d001b2cafc8.js": "aa60f9ebcf63df752b33f2f349ed3e60cf747075",
     "/minas-educa/quizzen/113-es2015.04c5674db7b3e7ccade5.js": "360d8b94896934ddd58f2779c340bd839f095dbe",
     "/minas-educa/quizzen/113-es5.04c5674db7b3e7ccade5.js": "1cfcac09f6372371132e238968fa6f60e4b75d8c",
-    "/minas-educa/quizzen/14-es2015.e79a1e64153735d978d1.js": "49ced2023a20849e72d39ceeb5d189eca53a9d9c",
-    "/minas-educa/quizzen/14-es5.e79a1e64153735d978d1.js": "91d40aed338a853edacbf5c20aa08a46d9e30e92",
+    "/minas-educa/quizzen/14-es2015.f754020f051e4811aa00.js": "002eb52d023def70377eb2cd20dfe05a2ed13a5e",
+    "/minas-educa/quizzen/14-es5.f754020f051e4811aa00.js": "6f8e0acdb6a920aafce92081d7e293c513c0ecc6",
     "/minas-educa/quizzen/15-es2015.37e8fb7802a918949569.js": "8239b1bebb897e0c4d3f564056a429cc3c73e43f",
     "/minas-educa/quizzen/15-es5.37e8fb7802a918949569.js": "0c0864bc53f84a0a88bea431f5a4c69dbedcbd7a",
     "/minas-educa/quizzen/16-es2015.b374789c815aa37c583e.js": "9c6745f3507701cfe386b6c6caf590f33472740a",
@@ -474,6 +475,7 @@
     "/minas-educa/quizzen/98-es5.a61de5f2202686db576b.js": "f3e4bf6b4de64a9faf965c40010c348b09a45bd4",
     "/minas-educa/quizzen/99-es2015.c00316f6ba3648616e06.js": "8856d919ef564367e0b10657cbbc972ed22652eb",
     "/minas-educa/quizzen/99-es5.c00316f6ba3648616e06.js": "fd43ae2f0bf2705f585c6ff636de21e45f181295",
+    "/minas-educa/quizzen/assets/icon/favicon.ico": "6e499dff4265b56104dd8dc404ebccc535b4269d",
     "/minas-educa/quizzen/assets/icon/favicon.png": "b00858259e3620b9b203ac4aef8700cf1e42be4f",
     "/minas-educa/quizzen/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
     "/minas-educa/quizzen/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
@@ -486,13 +488,13 @@
     "/minas-educa/quizzen/assets/shapes.svg": "5413e95adabcb2cb639970051f55e0ddb64ace53",
     "/minas-educa/quizzen/common-es2015.00198cfd386cdff0ea48.js": "23768dfcefd8aad674d8a84a33dca91e77653e11",
     "/minas-educa/quizzen/common-es5.00198cfd386cdff0ea48.js": "c1a4f9ea43eb40a5826b3dd4061e5a67462e8f10",
-    "/minas-educa/quizzen/index.html": "f9a546fad293a467685324c33e30ab82d4b2b1bd",
+    "/minas-educa/quizzen/index.html": "0135f1f50c88312ae9e50542c48520769440de14",
     "/minas-educa/quizzen/main-es2015.062763bae8bd5d00361d.js": "903c535657efa1fb3e9e160a060ad73681970ecd",
     "/minas-educa/quizzen/main-es5.062763bae8bd5d00361d.js": "bb2bd598fc91c3bba26503973733ca7b25b55ecc",
     "/minas-educa/quizzen/polyfills-es2015.eecc33cb42586ec02aa2.js": "ccce3d47d6c09a7565b6bf9a182113fc520891c7",
     "/minas-educa/quizzen/polyfills-es5.97b960f8b6687c760be2.js": "6f14fc7990dee99b77d7ac2a6587b7a10127c93c",
-    "/minas-educa/quizzen/runtime-es2015.0605982649969add2e0f.js": "88cbfe2098e5a6712684c05caf9fafa009d787d6",
-    "/minas-educa/quizzen/runtime-es5.0605982649969add2e0f.js": "f9c2e556184d2178bdb5023e44be24eb0f6e9479",
+    "/minas-educa/quizzen/runtime-es2015.66cf492f01add8aa46be.js": "879af292fe6fe79b491b9fd933878fa7e5cd7224",
+    "/minas-educa/quizzen/runtime-es5.66cf492f01add8aa46be.js": "b040140520d1b54998a73d4b639e8f61faac7d8f",
     "/minas-educa/quizzen/styles.9a7d8a84e433dee4b72c.css": "5bd3b63640b2216330a2c2c1d2b12c241ef74f03"
   },
   "navigationUrls": [
