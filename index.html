@@ -21,7 +21,7 @@
     }
 
     html {
-      background: black;
+      scroll-behavior: smooth;
     }
 
     body {
@@ -29,52 +29,169 @@
       overflow: hidden;
     }
 
-    button,
-    p {
-      color: white;
-      font-family: 'Poppins', sans-serif;
+    div.page-block {
+      height: 100vh;
+      position: relative;
+      text-align: center;
     }
 
-    button {
-      font-weight: bold;
+    div.bg-img {
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: contain;
     }
 
-    ul li {
-      margin: 10px;
+    div.bg-black {
+      background: black;
+    }
+
+    div.bg-gradient {
+      background: rgb(2,0,36);
+background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(9,45,73,1) 21%, rgba(34,212,210,1) 70%, rgba(42,227,181,1) 100%);
+    }
+
+    div.big-n,
+    div.cv {
+      height: 90%;
+      margin: 2.5% 5%;
     }
 
     div.big-n {
-      background: url('assets/bg-2.gif') center no-repeat;
-      background-size: contain;
-      height: 90vh;
-      margin: 5vh;
-      width: 90vh;
+      background-image: url('assets/big_n.gif');
     }
 
-    .content-links {
-      margin-top: 80vh;
+    div.cv {
+      background-image: url('assets/cv.png');
+    }
+
+    .arrow-btn-down,
+    .arrow-btn-up {
       position: absolute;
+    }
+
+    .arrow-btn-down {
+      bottom: 5%;
+      left: 0;
+      right: 0;
+    }
+
+    .arrow-btn-up {
+      bottom: 2.5%;
+      right: 1.5%;
+    }
+
+    .arrow-btn-down i,
+    .arrow-btn-up i {
+      font-size: 100px;
+      transition: .3s;
+    }
+
+    .arrow-btn-down {
+      color: #2bbbad;
+    }
+
+    .arrow-btn-up {
+      color: #020024;
+    }
+
+    .arrow-btn-down i {
+      font-size: 100px;
+    }
+
+    .arrow-btn-up i {
+      font-size: 75px;
+    }
+
+    .arrow-btn-down i:hover,
+    .arrow-btn-up i:hover {
+      transform: scale(1.1);
+    }
+
+    .arrow-btn-down i:hover {
+      color: #52ffee;
+    }
+
+    .arrow-btn-up i:hover {
+      color: #373296;
     }
 
     .flex-box {
       display: flex;
       justify-content: center;
     }
+
+    .flex-column {
+      flex-direction: column;
+    }
+
+    .flex-row {
+      flex-direction: row;
+    }
+
+    .floating {
+      animation-name: floating;
+      animation-duration: 4s;
+      animation-iteration-count: infinite;
+      animation-timing-function: ease-in-out;
+    }
+
+    .my-cv-text {
+      height: 100%;
+      position: relative;
+    }
+
+    .my-cv-text p {
+      bottom: 50%;
+      color: white;
+      font-family: "Poppins";
+      font-size: 50px;
+      left: 0;
+      padding-left: 5%;
+      position: absolute;
+      right: 0;
+      text-shadow: 2px 2px 1px #218f75;
+    }
+
+    .w-50 {
+      width: 50%;
+    }
+
+    @keyframes floating {
+      from {
+        transform: translate(0, -2.5px);
+      }
+
+      50% {
+        transform: translate(0, 2.5px);
+      }
+
+      to {
+        transform: translate(0, -2.5px);
+      }
+    }
   </style>
 </head>
 
-<body class="flex-box">
-  <div class="big-n"></div>
-  <ul class="content-links">
-    <li>
-      <a href="./minas-educa/quizzen">
-        <button class="btn waves-effect waves-light" type="submit">
-          quizzen
-          <i class="material-icons right">chevron_right</i>
-        </button>
-      </a>
-    </li>
-  </ul>
+<body class="flex-box flex-column">
+  <div id="big-n" class="page-block bg-black">
+    <div class="bg-img big-n"></div>
+    <a class="arrow-btn-down" href="#cv">
+      <i class="material-icons">keyboard_arrow_down</i>
+    </a>
+  </div>
+  <div id="cv" class="page-block bg-gradient flex-box">
+    <div class="my-cv-text w-50">
+      <p>
+        oi!
+        <br>
+        esse é o meu currículo:
+      </p>
+    </div>
+    <div class="bg-img cv floating w-50"></div>
+    <a class="arrow-btn-up" href="#big-n">
+      <i class="material-icons">keyboard_arrow_up</i>
+    </a>
+  </div>
 </body>
 
 </html>
