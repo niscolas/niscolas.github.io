@@ -16,6 +16,11 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
   <style>
+    ::-webkit-scrollbar {
+      width: 0px;
+      background: transparent;
+    }
+
     * {
       box-sizing: border-box;
     }
@@ -26,11 +31,10 @@
 
     body {
       min-height: 100vh;
-      overflow: hidden;
+      overflow-y: scroll;
     }
 
     div.page-block {
-      height: 100vh;
       position: relative;
       text-align: center;
     }
@@ -41,27 +45,34 @@
       background-size: contain;
     }
 
+    div.page-block.bg-black {
+      height: 100vh;
+    }
+
     div.bg-black {
       background: black;
     }
 
     div.bg-gradient {
-      background: rgb(2,0,36);
-background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(9,45,73,1) 21%, rgba(34,212,210,1) 70%, rgba(42,227,181,1) 100%);
+      background: rgb(0, 0, 0);
+      background: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 31%, rgba(10, 84, 110, 1) 76%);
     }
 
     div.big-n,
     div.cv {
-      height: 90%;
       margin: 2.5% 5%;
     }
 
     div.big-n {
+      height: 90%;
       background-image: url('assets/big_n.gif');
     }
 
     div.cv {
       background-image: url('assets/cv.png');
+      height: 180vh;
+      margin-top: 5%;
+      width: 80%;
     }
 
     .arrow-btn-down,
@@ -135,27 +146,6 @@ background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(9,45,73,1) 21%, rgba
       animation-timing-function: ease-in-out;
     }
 
-    .my-cv-text {
-      height: 100%;
-      position: relative;
-    }
-
-    .my-cv-text p {
-      bottom: 50%;
-      color: white;
-      font-family: "Poppins";
-      font-size: 50px;
-      left: 0;
-      padding-left: 5%;
-      position: absolute;
-      right: 0;
-      text-shadow: 2px 2px 1px #218f75;
-    }
-
-    .w-50 {
-      width: 50%;
-    }
-
     @keyframes floating {
       from {
         transform: translate(0, -2.5px);
@@ -180,17 +170,10 @@ background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(9,45,73,1) 21%, rgba
     </a>
   </div>
   <div id="cv" class="page-block bg-gradient flex-box">
-    <div class="my-cv-text w-50">
-      <p>
-        oi!
-        <br>
-        esse é o meu currículo:
-      </p>
-    </div>
     <div class="bg-img cv floating w-50"></div>
-    <a class="arrow-btn-up" href="#big-n">
+    <!-- <a class="arrow-btn-up" href="#big-n">
       <i class="material-icons">keyboard_arrow_up</i>
-    </a>
+    </a> -->
   </div>
 </body>
 
