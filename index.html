@@ -8,12 +8,12 @@
 
   <link rel="icon" href="favicon.png" />
 
-  <!-- fonts -->
   <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
-
-  <!-- materialize -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <script src="https://kit.fontawesome.com/d8bb6483e7.js" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 
   <style>
     ::-webkit-scrollbar {
@@ -75,55 +75,39 @@
       width: 80%;
     }
 
-    .arrow-btn-down,
-    .arrow-btn-up {
+    .icons {
+      color: #2bbbad;
       position: absolute;
     }
 
-    .arrow-btn-down {
+    .icons.arrow-down {
       bottom: 5%;
+      
       left: 0;
       right: 0;
     }
 
-    .arrow-btn-up {
-      bottom: 2.5%;
-      right: 1.5%;
+    .icons.arrow-down i {
+      font-size: 100px;
     }
 
-    .arrow-btn-down i,
-    .arrow-btn-up i {
-      font-size: 100px;
+    .icons.github {
+      font-size: 50px;
+      right: 5%;
+      top: 5%;
+    }
+
+    .icons.github {
+      font-size: 50px;
+    }
+
+    .icons i {
       transition: .3s;
     }
 
-    .arrow-btn-down {
-      color: #2bbbad;
-    }
-
-    .arrow-btn-up {
-      color: #020024;
-    }
-
-    .arrow-btn-down i {
-      font-size: 100px;
-    }
-
-    .arrow-btn-up i {
-      font-size: 75px;
-    }
-
-    .arrow-btn-down i:hover,
-    .arrow-btn-up i:hover {
-      transform: scale(1.1);
-    }
-
-    .arrow-btn-down i:hover {
+    .icons i:hover {
       color: #52ffee;
-    }
-
-    .arrow-btn-up i:hover {
-      color: #373296;
+      transform: scale(1.1);
     }
 
     .flex-box {
@@ -165,15 +149,17 @@
 <body class="flex-box flex-column">
   <div id="big-n" class="page-block bg-black">
     <div class="bg-img big-n"></div>
-    <a class="arrow-btn-down" href="#cv">
+
+    <a class="icons arrow-down" href="#cv">
       <i class="material-icons">keyboard_arrow_down</i>
+    </a>
+
+    <a class="floating github icons" href="https://github.com/niscolas">
+      <i class="fab fa-github"></i>
     </a>
   </div>
   <div id="cv" class="page-block bg-gradient flex-box">
     <div class="bg-img cv floating w-50"></div>
-    <!-- <a class="arrow-btn-up" href="#big-n">
-      <i class="material-icons">keyboard_arrow_up</i>
-    </a> -->
   </div>
 </body>
 
